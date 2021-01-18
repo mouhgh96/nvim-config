@@ -1,0 +1,13 @@
+
+# Functional components
+snippet rafc "react css functional component" b
+	import React from "react"
+	import './$1.css'
+	export const ${1:ComponentName} = (${2:props}) => {
+		return (
+			<div className="$1">
+				$1
+			</div>
+		);
+	}
+endsnippet
